@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #000000; 
+    color: #d4af37; 
+}
+
+/* Form Styles */
+
+
+form {
+    margin: auto;
+    background-color: #1c1c1c; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(212, 175, 55, 0.5); 
+    padding: 20px;
+    max-width: 600px;
+    color: #d4af37; 
+    /* border: 2px solid #d4af37;  */
+}
+
+/* Heading Styles */
+
+h1 {
+    text-align: center;
+    color: #d4af37; 
+}
+
+/* Fieldset Styling */
+
+
+fieldset {
+    border: 2px solid #d4af37; 
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #000000; 
+    color: #d4af37; 
+}
+
+/* Legend Styling */
+
+legend {
+    font-weight: bold;
+    text-align: center;
+    color: #d4af37; 
+}
+
+/* Label Styling */
+label {
+    display: block;
+    margin-top: 10px;
+    color: #d4af37;
+}
+
+/* Input and Textarea Styling */
+
+input,
+textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 2px);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #1c1c1c; 
+    color: #d4af37; 
+     border: 1px solid #d4af37;  
+    font-weight: bold;
+}
+
+/* Button Styling */
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #d4af37; 
+    color: #000000; 
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #b5942a; 
+}
+
+/* Resume Display Styling */
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #d4af37; 
+    border-radius: 8px;
+    background-color: #1c1c1c; 
+    box-shadow: 0 4px 8px rgba(212, 175, 55, 0.5); 
+    color: #d4af37; /* Gold */
+}
+
+/* Resume Section Titles */
+#resume-display h2 {
+    color: #d4af37; /
+}
+
+#resume-display h3 {
+    color: #d4af37; 
+}
+
+/* Resume Paragraphs */
+#resume-display p {
+    font-size: 16px;
+    color: #d4af37; 
+}
